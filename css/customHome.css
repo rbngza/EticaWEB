@@ -1,0 +1,33 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Baloo Thambi', cursive;
+    color: white;
+    text-align: center;
+}
+p, div {
+	font-family: 'Baloo Thambi', cursive;
+    color: white;
+    align-content: center;
+}
+
+p{
+	padding-left: 70px;
+	padding-right: 70px;
+	font-size: 24pt;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("../img/inteligenciasMultiples.png");
+
+  background-color: black;
+  /* Set a specific height */
+  min-height: 500px; 
+
+  padding: 70px;
+  margin-top: 65px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
